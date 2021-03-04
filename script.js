@@ -39,7 +39,7 @@ var unit = [
     ],
 
         [
-            {name:"KM/H",value:1},{name:"M/S",value:3.6},{name:"Knop",value:1.852001},{name:"MPH",value:1.852001} 
+            {name:"KM/H",value:1},{name:"M/S",value:3.6},{name:"Knop",value:1.852001},{name:"MPH",value:1.609344} 
         ]
 ]
 
