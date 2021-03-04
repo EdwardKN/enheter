@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <select id="dimensionInput" ></select>
+
+    <select id="selectInput"></select>
+
+    <input type="text" id="numberInput">
+
+    <select id="selectOutput"></select>
+
+    <h2 id="numberOutput"></h3>    
+
+    <script src="script.js"></script>
+
+    <style>
+        body {background-color: black;}
+
+        select {
+        width: 200px;
+        height: 50px;
+        font-size: 100%;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 0;
+        background-color: #c0392b;
+        border: none;
+        border-bottom: 2px solid #962d22;
+        color: white;
+        padding: 10px;
+        padding-right: 38px;
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        /* Adding transition effect */
+        transition: color 1s ease, background-color 1s ease, border-bottom-color 1s ease;
+      }
+/* For IE <= 11 */
+select::-ms-expand {
+  display: none; 
+}
+select:focus {
+  color: white;
+  background-color: #800000;
+  border-bottom-color: #800000;
+}
+input {
+  width: 200px;
+  height: 30px;
+  font-size: 100%;
+  font-weight: bold;
+  cursor: auto;
+  border-radius: 0;
+  background-color: #c0392b;
+  border: none;
+  border-bottom: 2px solid #962d22;
+  color: white;
+  padding: 10px;
+  padding-right: 38px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Adding transition effect */
+  transition: color 1s ease, background-color 1s ease, border-bottom-color 1s ease;
+}
+/* For IE <= 11 */
+input::-ms-expand {
+  display: none; 
+}
+input:focus {
+  color: white;
+  background-color: #800000;
+  border-bottom-color: #800000;
+}
+
+.text {
+      -ms-word-break: break-all;
+    word-break: break-all;
+
+     word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+
+}
+
+h2{
+  position:relative; top:-70px; left:865px; margin-left:0px; margin-right:0px;
+  width: 200px;
+  height: 30px;
+  font-size: 130%;
+  font-weight: bold;
+  cursor: auto;
+  border-radius: 0;
+  background-color: #c0392b;
+  border: none;
+  border-bottom: 2px solid #962d22;
+  color: white;
+  padding: 10px;
+  padding-right: 38px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  /* Adding transition effect */
+  transition: color 1s ease, background-color 1s ease, border-bottom-color 1s ease;
+  user-select: auto;
+}
+
+    </style>
+</body>
+</html>
