@@ -60,7 +60,6 @@ function update(){
 
     for(let h = 0; h<dimensions.length; h++){
         if(document.getElementById("dimensionInput").value === dimensions[h].value && document.getElementById("dimensionInput").value !== lastValue){
-            console.log(document.getElementById("dimensionInput").value)
             lastValue = document.getElementById("dimensionInput").value;
 
             for (var x = -1; x < 100; x++) {
